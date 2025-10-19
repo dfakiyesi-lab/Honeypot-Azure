@@ -1,87 +1,56 @@
-# 🕵️‍♂️ Multi Honeypot Platform – T-Pot on Azure Cloud
+# 🎯 Explore the World of Honeypots (T-Pot on Azure)
 
 ## 🎯 Objective
-To deploy and manage a **multi-honeypot system (T-Pot)** in the Azure cloud environment to capture, monitor, and analyze real-world cyberattacks, enhancing skills in **threat detection**, **incident response**, and **cloud infrastructure security**.
+Deploy and monitor **T-Pot**, an all-in-one honeypot solution, on **Microsoft Azure** to simulate cyberattacks and analyze threat behavior in a controlled environment.
 
 ---
 
-## 🧰 Tools & Technologies Used
-- **T-Pot** (multi-honeypot framework)
+## 🧰 Tools Used
 - **Microsoft Azure**
-- **Ubuntu Server**
-- **Docker & Docker Compose**
-- **Elasticsearch, Kibana, and Logstash (ELK Stack)**
-- **Firewall and Network Security Groups**
+- **T-Pot Honeypot Framework**
+- **PuTTY**
+- **Ubuntu Server (VM)**
+- **Azure Network Security Groups (NSGs)**
 
 ---
 
 ## ⚙️ Steps Performed
 
-1. **Provisioned an Azure Virtual Machine**
-   - Created an **Ubuntu Server VM** on Microsoft Azure.
-   - Configured **network security groups (NSGs)** to allow inbound connections on relevant honeypot ports (e.g., 22, 80, 443, 445, 1433, etc.).
-   - Secured SSH access via key-based authentication.
+1. **Created Azure Account**
+   - Registered and configured a new **Microsoft Azure** account.
+   - Navigated to the **Azure Portal** to access virtual machine resources.
 
-2. **Installed and Configured T-Pot**
-   - Updated the system and installed **Docker** and **Docker Compose**.
-   - Cloned the official **T-Pot repository** from GitHub.
-   - Executed the T-Pot installation script, deploying multiple honeypots (e.g., **Cowrie**, **Dionaea**, **ElasticPot**, **Mailoney**, etc.).
-   - Verified successful deployment via the T-Pot dashboard.
+2. **Provisioned the Virtual Machine**
+   - Created an **Ubuntu Server** virtual machine to host T-Pot.
+   - Configured network settings and assigned a static public IP address.
+   - Adjusted **Network Security Groups (NSGs)** to allow relevant inbound ports for honeypot services.
 
-3. **Enabled Monitoring and Logging**
-   - Accessed the **T-Pot Web UI (Cockpit)** for visual monitoring.
-   - Configured **Kibana dashboards** to visualize attack data in real time.
-   - Analyzed logs for intrusion attempts, malware uploads, and brute-force attacks.
+3. **Connected via SSH**
+   - Installed **PuTTY** on the local system to establish an SSH connection.
+   - Used Azure-generated credentials to connect securely to the Ubuntu VM.
 
-4. **Analyzed Honeypot Data**
-   - Monitored **source IPs, attack frequency, and targeted ports**.
-   - Identified common attack patterns and tools used by threat actors.
-   - Documented insights from live attack data for further study.
+4. **Installed T-Pot**
+   - Downloaded the official T-Pot installation script.
+   - Executed the script to deploy multiple honeypot services (e.g., Cowrie, Dionaea, ElasticPot).
+   - Verified successful installation and started monitoring dashboards.
 
-5. **Hardened the Environment**
-   - Restricted management ports to specific IPs using Azure NSG rules.
-   - Deployed automated backups and system updates to maintain reliability.
-   - Regularly reviewed resource utilization for optimal performance.
+5. **Monitored and Analyzed Attacks**
+   - Accessed the **T-Pot web interface** via browser using the VM’s public IP.
+   - Observed live attack attempts, including SSH brute-force and web-based exploits.
+   - Recorded and analyzed threat intelligence data for potential patterns.
 
 ---
 
 ## 📸 Screenshots
-
-Include **4–5 high-value visuals** that demonstrate the project in action:
-
-| Screenshot | Description |
-|-------------|--------------|
-| ![Azure VM Overview](./images/azure-vm.png) | Deployed Ubuntu VM running T-Pot in Azure |
-| ![T-Pot Dashboard](./images/tpot-dashboard.png) | Overview of honeypot services |
-| ![Kibana Attack Visuals](./images/kibana-visuals.png) | Attack data visualization in Kibana |
-| ![Network Security Groups](./images/azure-nsg.png) | Azure network security configuration |
-| ![T-Pot Cockpit Login](./images/tpot-login.png) | Secure T-Pot web interface |
-
-💡 *Redact or blur sensitive IPs, domains, or usernames.*
-
----
-
-## 🔒 Security & Analysis Highlights
-
-- Captured live attack attempts from global threat actors.  
-- Used **T-Pot’s modular honeypot system** to simulate multiple vulnerable services.  
-- Visualized and analyzed real-time attack metrics using **ELK Stack dashboards**.  
-- Reinforced Azure VM with security rules and SSH key-based access.
+1. **Azure portal view** *(showing VM and network configuration)*  
+2. **PuTTY SSH session** *(connected to T-Pot instance)*  
+3. **T-Pot dashboard** *(live attack logs and graphs)*  
+4. **Elastic/Kibana analytics view** *(threat visualization)*  
 
 ---
 
 ## 🧩 Key Takeaways
-
-- Gained experience in **deploying honeypots** in a cloud environment.  
-- Learned to interpret **attack patterns and telemetry data** using Kibana.  
-- Strengthened practical knowledge in **Azure cloud security** and **network management**.  
-- Enhanced awareness of common attack vectors targeting exposed services.
-
----
-
-## 🚀 Next Steps (Optional Improvements)
-
-- Integrate T-Pot logs with **Microsoft Sentinel** for SIEM correlation.  
-- Automate data export for long-term trend analysis.  
-- Deploy multiple honeypots across regions for broader visibility.  
-- Add email alerts for high-severity attack activity.
+- Learned how to deploy and secure a honeypot environment in the cloud.  
+- Gained experience monitoring real-world attack traffic using T-Pot.  
+- Understood how honeypots can collect valuable threat intelligence data.  
+- Strengthened knowledge of Azure network security and Linux-based server management.
