@@ -42,10 +42,14 @@ Deploy and monitor **T-Pot**, an all-in-one honeypot solution, on **Microsoft Az
 ---
 
 ## 📸 Screenshots
-1. **Azure portal view** *(showing VM and network configuration)*  
-2. **PuTTY SSH session** *(connected to T-Pot instance)*  
-3. **T-Pot dashboard** *(live attack logs and graphs)*  
-4. **Elastic/Kibana analytics view** *(threat visualization)*  
+1. **PuTTY SSH session** *(connected to T-Pot instance)*  <img width="997" height="589" alt="Screenshot 2025-10-12 182402" src="https://github.com/user-attachments/assets/3ff800cb-f594-4431-9d47-3d2d5adb802f" />
+
+2. **T-Pot dashboard** <img width="2548" height="1424" alt="Screenshot 2025-10-12 190833" src="https://github.com/user-attachments/assets/9ca74ff5-f77f-4884-81ec-4f57817e1fef" />
+  
+3. **Attack Map/ElasticVue/Kibana view** *(threat visualization)*  <img width="2518" height="1423" alt="Screenshot 2025-10-12 195145" src="https://github.com/user-attachments/assets/57f79cc7-4d74-492d-a8d1-ca8d031d14a4" /> <img width="2545" height="1442" alt="Screenshot 2025-10-12 200110" src="https://github.com/user-attachments/assets/26bb82bd-3f46-49d9-b20e-0ab8df4c4e8e" /> <img width="2535" height="1433" alt="Screenshot 2025-10-12 195521" src="https://github.com/user-attachments/assets/53b4e9c5-adbd-49fe-ab5a-7c5fbb99d2f3" />
+
+
+
 
 ---
 
