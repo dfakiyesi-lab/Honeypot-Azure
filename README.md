@@ -1,11 +1,11 @@
-# 🎯 Explore the World of Honeypots (T-Pot on Azure)
+# 🍯 Multi Honeypot Platform (T-Pot on Azure)
 
-## 🎯 Objective
+## Objective
 Deploy and monitor **T-Pot**, an all-in-one honeypot solution, on **Microsoft Azure** to simulate cyberattacks and analyze threat behavior in a controlled environment.
 
 ---
 
-## 🧰 Tools Used
+##  Tools Used
 - **Microsoft Azure**
 - **T-Pot Honeypot Framework**
 - **PuTTY**
@@ -14,7 +14,7 @@ Deploy and monitor **T-Pot**, an all-in-one honeypot solution, on **Microsoft Az
 
 ---
 
-## ⚙️ Steps Performed
+## Steps Performed
 
 1. **Created Azure Account**
    - Registered and configured a new **Microsoft Azure** account.
@@ -56,7 +56,7 @@ Deploy and monitor **T-Pot**, an all-in-one honeypot solution, on **Microsoft Az
 
 ---
 
-## 🧩 Key Takeaways
+## Key Takeaways
 - Learned how to deploy and secure a honeypot environment in the cloud.  
 - Gained experience monitoring real-world attack traffic using T-Pot.  
 - Understood how honeypots can collect valuable threat intelligence data.  
